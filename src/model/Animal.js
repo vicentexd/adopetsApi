@@ -38,6 +38,10 @@ const AnimalSchema = new Schema(
       type: String,
       required: true,
     },
+    telefone: {
+      type: String,
+      required: true,
+    },
     likes: [
       {
         type: Schema.Types.ObjectId,

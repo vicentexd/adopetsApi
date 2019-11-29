@@ -57,6 +57,7 @@ module.exports = {
       id_responsavel,
       imagem,
       descricao,
+      telefone,
     } = req.body
 
     const pet = await Animal.create({
@@ -69,6 +70,7 @@ module.exports = {
       id_responsavel,
       imagem,
       descricao,
+      telefone,
     })
 
     return res.json(pet)
